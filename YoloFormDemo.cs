@@ -17,7 +17,8 @@ namespace YoloPluginDemo
 
         private void button1_Click(object sender, EventArgs e)
         {
-            rtbLogs.Text = "Hello ";
+            rtbLogs.Text = "Hello \n";
+            rtbLogs.Text = GetMainForm().ConfigGetEntry("YoloSpaceHacker", "profile", "not found");
         }
     }
 }

@@ -52,8 +52,8 @@ namespace PluginToolbarDemo
             form = f.NewFormURL("http://yolospacehacker.com");
             form.Hide();
 
-            formDemo = new YoloFormDemo(); 
-
+            formDemo = new YoloFormDemo();
+            formDemo.SetMainForm(f);
         }
 
         public override void OnClick()

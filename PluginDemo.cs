@@ -52,7 +52,7 @@ namespace YoloPluginDemo
         */
         public override void OnTerminate()
         {
-            mainform.Log("Plugin demo Terminate", Level.info);
+            if (mainform!=null) mainform.Log("Plugin demo Terminate", Level.info);
         }
     }
 
